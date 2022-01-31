@@ -5,6 +5,10 @@
   font-size: 1.3rem;
 }
 
+.home .section-container {
+  height: 100vh !important;
+}
+
 .home .section-container .home-button {
   background: none;
   border: none;
@@ -115,3 +119,22 @@
   z-index: 200;
   mix-blend-mode: color;
 } */
+
+@media only screen and (max-width: 1024px) and (min-device-width: 280px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .home .section-container .rigth-section .surface {
+    display: none !important;
+  }
+  .home .section-container .rigth-section .surface {
+    display: none !important;
+  }
+
+  .home .section-container .left-section .home-paragraph {
+    width: 70%;
+    margin: 1rem auto;
+  }
+
+  .home .section-container .left-section button {
+    width: 80%;
+    margin: 1rem auto;
+  }
+}

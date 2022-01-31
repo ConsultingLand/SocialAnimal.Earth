@@ -57,25 +57,43 @@ const Home = ({ id }) => {
             </button>
 
             <SocialMediaLinks>
-              <SocialMediaLink href="https://www.instagram.com/socialanimalearth/">
+              <SocialMediaLink
+                target={"_blank"}
+                href="https://www.instagram.com/socialanimalearth/"
+              >
                 <i class="fab fa-instagram"></i>
               </SocialMediaLink>
-              <SocialMediaLink href="https://discord.gg/nqWBPgvh7s">
+              <SocialMediaLink
+                target={"_blank"}
+                href="https://discord.gg/nqWBPgvh7s"
+              >
                 {" "}
                 <i class="fab fa-discord"></i>{" "}
               </SocialMediaLink>
-              <SocialMediaLink href="https://socialanimalearth.medium.com/">
+              <SocialMediaLink
+                target={"_blank"}
+                href="https://socialanimalearth.medium.com/"
+              >
                 {" "}
                 <i class="fab fa-medium-m"></i>{" "}
               </SocialMediaLink>
-              <SocialMediaLink href="https://twitter.com/SocialAnimalEar">
+              <SocialMediaLink
+                target={"_blank"}
+                href="https://twitter.com/SocialAnimalEar"
+              >
                 <i class="fab fa-twitter"></i>
               </SocialMediaLink>
-              <SocialMediaLink href="https://www.linkedin.com/company/socialsnimalearth">
+              <SocialMediaLink
+                target={"_blank"}
+                href="https://www.linkedin.com/company/socialsnimalearth"
+              >
                 {" "}
                 <i class="fab fa-linkedin-in"></i>{" "}
               </SocialMediaLink>
-              <SocialMediaLink href="https://t.me/socialanimalearth">
+              <SocialMediaLink
+                target={"_blank"}
+                href="https://t.me/socialanimalearth"
+              >
                 {" "}
                 <i class="fab fa-telegram-plane"></i>{" "}
               </SocialMediaLink>

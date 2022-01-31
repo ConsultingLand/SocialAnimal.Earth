@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import "./Activity.css";
+import "./OwlCarousel.css";
 
 import { motion } from "framer-motion";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader

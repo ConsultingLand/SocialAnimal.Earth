@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./Human.css";
 import mars from "../images/mars.png";
 
 import { motion } from "framer-motion";

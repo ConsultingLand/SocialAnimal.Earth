@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./Introduction.css";
 import { motion, useTransform, useViewportScroll } from "framer-motion";
 
 //Planet images

@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import "./Roadmap.css";
 import earth from "../images/earth-modified.png";
 import Stars from "./Stars";
 import { motion } from "framer-motion";
