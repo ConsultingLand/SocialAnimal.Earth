@@ -76,7 +76,7 @@ const Footer = () => {
           <div className="footer-blocks">
             <div className="footer-blocks-top">
               <div className="left-footer-block">
-                <div className="footer-block-title">Carreer</div>
+                <div className="footer-block-title">Carreers</div>
                 <div className="footer-block-paragraph">
                   Are you ready for something fresh and exciting, a chance to
                   dive into some cool, new tech?
@@ -90,7 +90,10 @@ const Footer = () => {
                   the new generation and to contribute to the open,
                   decentralized economy.
                 </div>
-                <div className="footer-block-paragraph">
+                <div className="footer-block-title play-title">
+                  ❝ Play to Earn, Play to learn! ❞
+                </div>
+                {/* <div className="footer-block-paragraph">
                   High-level understanding of Blockchain development practices
                   (development languages used, ability to describe development
                   languages benefits, method, tools available for web3
@@ -110,7 +113,7 @@ const Footer = () => {
                     Creation of graphic language, art concept, 2D/3D content.
                   </li>
                   <li>Script and plot development.</li>
-                </div>
+                </div> */}
               </div>
               <div className="right-footer-block">
                 <div className="top-section-footer-right">
@@ -179,7 +182,7 @@ const Footer = () => {
                     </div>
                   </div>
                 </div>
-                <div className="footer-block-list">
+                {/* <div className="footer-block-list">
                   <div className="footer-block-list-title">
                     It is mandatory you have these attributes to succeed in the
                     role:
@@ -192,7 +195,7 @@ const Footer = () => {
                     Only send us your CV via email add the two emojis 🔨 💙 in
                     your application reference for it to be valid.
                   </li>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="footer-blocks-bottom">
